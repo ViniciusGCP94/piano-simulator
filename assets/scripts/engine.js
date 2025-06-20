@@ -61,9 +61,16 @@ const checkOrientation = () => {
   }
 };
 
-window.addEventListener("orientationchange", checkOrientation);
-window.addEventListener("load", checkOrientation);
 popupBtn.addEventListener("click", () => {
-  popup.classList.add("hidden");
-  document.body.style.overflow = "";
+  // Só fecha o popup se a orientação for paisagem
+  const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
+  if (!isPortrait) {
+    popup.classList.add("hidden");
+    document.body.style.overflow = "";
+  }
 });
+
+window.addEventListener("orientationchange", checkOrientation);
+window.addEventListener("resize", checkOrientation); // garante verificação mesmo sem rotação real
+window.addEventListener("load", checkOrientation);
