@@ -6,7 +6,7 @@ Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de n
 
 ## Demonstração
 
-[Clique aqui para ver o projeto](https://pianosimulator.vercel.app/)
+[Clique aqui para ver o projeto](https://piano-simulator-xi.vercel.app/)
 
 ## Recursos
 
