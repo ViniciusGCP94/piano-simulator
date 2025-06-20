@@ -20,7 +20,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 header h2 {
@@ -155,8 +154,9 @@ header .column span {
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
+        padding: 20px 5%;
     }
 
     .piano-keys {
@@ -165,26 +165,56 @@ header .column span {
 
     .piano-keys .white {
         width: 60px;
+        height: 180px;
     }
 
     .piano-keys .black {
         width: 36px;
-        height: 160px;
+        height: 120px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .container{
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
+        padding: 20px 3%;
+    }
+
+    header {
+        gap: 5px;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    header > .column span  {
+        font-size: 1rem;
+    }
+
+    .volume-slider input {
+        width: 100px;
+    }
+
+    .keys-check input {
+        width: 50px;
+        height: 20px;
+    }
+
+    .keys-check input::before {
+        width: 14px;
+        height: 14px;
+        left: 0.3rem;
     }
 
     .piano-keys .white {
         width: 50px;
+        height: 150px;
     }
 
     .piano-keys .black {
-        width: 30px;
-        height: 150px;
+        width: 35px;
+        height: 100px;
     }
 }
