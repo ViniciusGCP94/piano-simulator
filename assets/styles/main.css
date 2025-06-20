@@ -152,7 +152,7 @@ header .column span {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: landscape) {
     .container{
         width: 90%;
         height: 90%;
@@ -174,7 +174,7 @@ header .column span {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
     .container{
         width: 90%;
         height: 90%;
@@ -208,13 +208,17 @@ header .column span {
         left: 0.3rem;
     }
 
+    .piano-keys span{
+        bottom: 6px;
+    }
+
     .piano-keys .white {
         width: 50px;
         height: 150px;
     }
 
     .piano-keys .black {
-        width: 35px;
-        height: 100px;
+        width: 40px;
+        height: 110px;
     }
 }
