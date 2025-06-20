@@ -126,6 +126,46 @@ header .column span {
     display: none;
 }
 
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.popup-content {
+    background-color: #1c1c1c;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    max-width: 300px;
+}
+
+.popup button {
+    margin-top: 15px;
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     .container{
         display: flex;

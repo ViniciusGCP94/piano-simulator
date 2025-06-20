@@ -40,3 +40,30 @@ const showHideKeys = ()=>{
 }
 
 keysCheck.addEventListener("click", showHideKeys)
+
+
+const popup = document.getElementById("orientation-popup");
+const popupBtn = document.getElementById("popup-ok");
+
+const isMobileOrTablet = () => {
+  return window.matchMedia("(max-width: 1024px)").matches;
+};
+
+const checkOrientation = () => {
+  const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
+  if (isPortrait && isMobileOrTablet()) {
+    popup.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+  } else {
+    popup.classList.add("hidden");
+    document.body.style.overflow = "";
+  }
+};
+
+window.addEventListener("orientationchange", checkOrientation);
+window.addEventListener("load", checkOrientation);
+popupBtn.addEventListener("click", () => {
+  popup.classList.add("hidden");
+  document.body.style.overflow = "";
+});
