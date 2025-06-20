@@ -25,7 +25,6 @@ Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de n
 ## Como Usar
 
 1. Clone este repositório:
-<<<<<<< HEAD
     ```bash
     git clone https://github.com/ViniciusGCP94/piano-simulator.git
     ```
@@ -33,18 +32,7 @@ Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de n
     ```bash
     cd piano-simulator
     ```
-
-=======
-   ```bash
-   git clone https://github.com/ViniciusGCP94/piano-simulator.git
-    ```
-2. Clone este repositório:
-   ```bash
-   cd piano-simulator
-   ```
->>>>>>> 47e2c5d697b5f89fe9642417818b1e96713fc9cc
 3. Abra o arquivo `index.html` no seu navegador.
-
    
 ## Contribuição
 Pull requests são bem-vindos! Para grandes mudanças, por favor abra uma issue primeiro para discutir o que você gostaria de modificar.
