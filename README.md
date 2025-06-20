@@ -2,6 +2,8 @@
 
 Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de notas, explore acordes e aprenda os fundamentos do piano diretamente no navegador!
 
+![Piano Simulator](assets/image/Piano-Simulator-Capa-readme.png)
+
 ## Demonstração
 
 [(Clique aqui para ver o projeto)](https://pianosimulator.vercel.app/)
@@ -23,13 +25,13 @@ Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de n
 ## Como Usar
 
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/ViniciusGCP94/piano-simulator.git
-    
+    ```bash
+    git clone https://github.com/ViniciusGCP94/piano-simulator.git
+    ```
 2. Clone este repositório:
-  ```bash
-  cd piano-simulator
-  ```
+    ```bash
+    cd piano-simulator
+    ```
 
 3. Abra o arquivo `index.html` no seu navegador.
 
