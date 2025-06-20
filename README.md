@@ -1,6 +1,6 @@
 # Piano Simulator 🎹
 
-Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de notas, explore acordes e aprenda os fundamentos do piano diretamente no navegador!
+É um Simulador de piano, interativo e desenvolvido em HTML, CSS e JavaScript. Toque de notas, explore acordes e aprenda os fundamentos do piano diretamente no navegador!
 
 ![Piano Simulator](assets/image/Piano-Simulator-Capa-readme.png)
 
