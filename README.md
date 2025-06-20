@@ -4,7 +4,7 @@ Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de n
 
 ## Demonstração
 
-[(Clique aqui para ver o projeto)](https://pianosimulator.vercel.app/)
+[Clique aqui para ver o projeto](https://pianosimulator.vercel.app/)
 
 ## Recursos
 
@@ -27,10 +27,9 @@ Simulador interativo de piano desenvolvido em HTML, CSS e JavaScript. Toque de n
    git clone https://github.com/ViniciusGCP94/piano-simulator.git
     ```
 2. Clone este repositório:
-  ```bash
-  cd piano-simulator
-  ```
-
+   ```bash
+   cd piano-simulator
+   ```
 3. Abra o arquivo `index.html` no seu navegador.
 
    
